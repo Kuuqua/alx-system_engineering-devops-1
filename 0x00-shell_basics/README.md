@@ -14,3 +14,5 @@
 #
 **7-movethatfile** - Move the file betty from /tmp/ to /tmp/holberton.
 #
+**8-firstdelete** - Delete the file betty.
+#
