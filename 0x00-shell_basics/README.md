@@ -2,7 +2,8 @@
 #
 **1-listit** - This script display the contents list of your current directory.
 #
-**2. There is no place like home** - This script changes the working directory to the user’s home directory.
+**2-bring_me_home** - This script changes the working directory to the user’s home directory.
 #
-**3. The long format** - This script display current directory contents in a long format
+**3-listfiles** - This script display current directory contents in a long format
 #
+**4-listmorefiles** - Display current directory contents, including hidden files (starting with .). Use the long format.
