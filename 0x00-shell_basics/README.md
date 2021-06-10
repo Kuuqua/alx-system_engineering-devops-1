@@ -12,3 +12,5 @@
 #
 **6-firstdirectory** - Create a script that creates a directory named holberton in the /tmp/ directory.
 #
+**7-movethatfile** - Move the file betty from /tmp/ to /tmp/holberton.
+#
