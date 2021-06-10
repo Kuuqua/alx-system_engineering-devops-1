@@ -16,3 +16,5 @@
 #
 **8-firstdelete** - Delete the file betty.
 #
+**9-firstdirdeletion** - Delete the directory holberton that is in the /tmp directory.
+#
