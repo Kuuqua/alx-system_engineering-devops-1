@@ -16,7 +16,3 @@ This projet is about basic shell scripting.
 
 ---
 
-## WARNING!!
-- This repo is done as a school assignment. Beware of copying my responses. I recommend you  to read resources and come up with your own solutions instead. Feel free to reach out to me for help!
-- This repo may conatin some errors. If you notice any, please add a pull request.
->>>>>>> 43b9d938e7469aa90b356be0849e14fb36d61a63
