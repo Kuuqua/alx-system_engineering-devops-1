@@ -1,5 +1,6 @@
 # Setup client config file
 # connect to server without password
+include stdlib
 
 file_line { 'Turn off passwd auth':
   ensure => present,
