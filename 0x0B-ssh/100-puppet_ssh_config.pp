@@ -1,10 +1,9 @@
-# Setup client config file
-# connect to server without password
+# Seting up my client config file
 include stdlib
 
 file_line { 'Turn off passwd auth':
   ensure => present,
-  path   => '/etc/ssh/shhh_config',
+  path   => '/etc/ssh/shh_config',
   line   => 'PasswordAuthentication no',
 }
 
