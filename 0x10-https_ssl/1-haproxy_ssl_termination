@@ -40,7 +40,7 @@ frontend  beta-scribbles.tech-http-frontend
         default_backend beta-scribbles.tech-backend
 
 frontend  beta-scribbles.tech-http-frontend
-        bind *:80
+        bind 0.0.0.:443 crt /etc/letsencrypt/live/www.beta-scribbles.tech/fullchain.pem
         mode https
 	  acl letsencrypt-acl path_beg /.well-known/acme-challenge/
         default_backend beta-scribbles.tech-backend
