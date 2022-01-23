@@ -1,4 +1,4 @@
-# 0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter
+# 0x11. What happens when you type google.com in your browser and press Enter
 
 In this project, I am asked to write an article to explain all about the web 2.0 infrusture. Understanding this concept is very important for me as a fullstack software engineer.
 
