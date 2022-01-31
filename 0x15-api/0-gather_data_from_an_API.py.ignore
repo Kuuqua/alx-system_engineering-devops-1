@@ -2,6 +2,9 @@
 """
 Using https://jsonplaceholder.typicode.com
 returns info about employee TODO progress
+
+This script need some more thinking...for later
+
 """
 import requests
 from sys import argv
