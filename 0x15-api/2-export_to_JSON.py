@@ -23,16 +23,15 @@ if __name__ == '__main__':
             user_name = user_res.get('username')
             todos = list(filter(lambda x: x.get('userId') == id, todos_res))
             with open("{}.json".format(id), 'w') as json_file:
-                  user_data = list(map(
-                        lambda x: {
-                              "task": x.get("title"),
-                              "completed": x.get("completed"),
-                              "username": user_name
-                        },
-                        todos
-                  ))
-                  user_data = {
-                        "{}".format(id): user_data
-                  }
-                  json.dump(user_data, json_file)
-
+                user_data = list(map(
+                    lambda x: {
+                        "task": x.get("title"),
+                        "completed": x.get("completed"),
+                        "username": user_name
+                    },
+                    todos
+                ))
+                user_data = {
+                    "{}".format(id): user_data
+                }
+                json.dump(user_data, json_file)
